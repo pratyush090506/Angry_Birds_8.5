@@ -15,6 +15,8 @@ class SlingShot{
     }
     attach(body){
         this.sling.bodyA = body;
+        bird.body.position.x=200;
+        bird.body.position.y=50;
     }
     
     fly(){
